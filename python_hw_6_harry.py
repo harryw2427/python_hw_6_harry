@@ -3,7 +3,7 @@
 
 # In[1]:
 
-
+#dog year converter
 dog_years=input('please tell me how much dog years you want to convert into human years: ')
 if (dog_years.isdigit()):
 
@@ -21,7 +21,7 @@ else:
 
 # In[2]:
 
-
+#cat year converter
 cat_years=input('Please tell me how much cat years you want to convert into human years: ')
 if (cat_years.isdigit()):
    
@@ -42,7 +42,7 @@ else:
 
 # In[4]:
 
-
+#password
 import time
 x='hello'
 user_answer=input('what is the password choose a word: ')
