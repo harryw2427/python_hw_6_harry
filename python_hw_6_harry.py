@@ -57,7 +57,8 @@ while not(user_answer==x):
         print ('You have tried too many times! GAME OVER!',counter)
         break
     counter=counter+1 
-print('correct password! Your in!')        
+if (user_answer==x):
+    print('correct password! Your in!')        
 
 
 # In[ ]:
